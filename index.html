@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
+  
   </head>
 
   <body>
     <div class="container">
 
       <!-- Navbar -->
-      <div class="nav">
+      <header class="nav">
         <div class="nav__brand">Accessibility 101</div>
         <div class="nav__list">
           <div class="nav__item">
-            <a href="/home">home</a>
+            <a href="/home">Home</a>
           </div>
           <div class="nav__item">
-            <a href="/about">about</a>
+            <a href="/about">About</a>
           </div>
           <div class="nav__item">
-            <a href="/contact">contact</a>
+            <a href="/contact">Contact</a>
           </div>
         </div>
-      </div>
+      </header>
 
       <!-- home -->
       <div class="home">
         <div class="home__heading-cta">
-          <div class="home__heading">Welcome to Accessibility 101!</div>
-          <div class="home_sign-up">Want to know? <a href="#">Click here</a></div>
+          <h1 class="home__heading">Welcome to Accessibility 101!</h1>
+          <h2 class="home_sign-up">Want to know more about a11y? <br><a href="#">See our about page</a></h2>
           <img
-            src="https://png2.kisspng.com/sh/d8eb9b7ecc7508e48e33a5d913dd23f2/L0KzQYm3U8E5N5Vpj5H0aYP2gLBuTfxwfpYygNdqcoSwfLF9hb1pbZJ3jJ97b33kfrTsTfNtcaEyeeR9LYDsc8X8kvUud5cyitdtLXjoccP7TcViaZZnT6MDNEKzc7OBTsg3PGE7UKc5MUW1QYSCWcU4PmM8SKg3cH7q/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png">
+             alt='Big Heart' src="https://png2.kisspng.com/sh/d8eb9b7ecc7508e48e33a5d913dd23f2/L0KzQYm3U8E5N5Vpj5H0aYP2gLBuTfxwfpYygNdqcoSwfLF9hb1pbZJ3jJ97b33kfrTsTfNtcaEyeeR9LYDsc8X8kvUud5cyitdtLXjoccP7TcViaZZnT6MDNEKzc7OBTsg3PGE7UKc5MUW1QYSCWcU4PmM8SKg3cH7q/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png">
         </div>
-        <div class="form">
+        <form class="form">
+          <p class='form_text'>name</p>
           <input placeholder="name" type="text" class="form__input">
+          <p class='form_text'>email</p>
           <input placeholder="email" type="email" class="form__input">
+          <p class='form_text'>password</p>
           <input placeholder="password" type="password" class="form__input">
           <input type="submit" class="form__button">
         </div>
-      </div>
+      </form>
 
       <!-- Footer -->
       <div class="footer">2019 Accessibility 101</div>
